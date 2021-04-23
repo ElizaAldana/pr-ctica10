@@ -1,0 +1,55 @@
+#body {
+    margin: 0;
+    padding: 0;
+}
+
+#regContainer{
+    display: flex;
+    flex-direction: column;
+    width:30%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rosybrown;
+    padding: 15pt;
+}
+
+#regContainer * {
+    width: 100%;
+    /*arriba derecha abajo izquierda*/
+    margin: 2px 20px 4px 16px; 
+}
+
+#imagen {
+    width: 8cm;
+    margin-bottom: 0.5cm;
+}
+
+#title, #subtitle, #title, #texto {
+    color: ghostwhite;
+    text-align: center;
+}
+
+#votBtn, #regBtn {
+    background-color: rebeccapurple;
+    color: white;
+    width: 30%;
+
+}
+#candBtn {
+  background-color: darkcyan;
+  color: white;
+  position: absolute;
+  width: 8%;
+  left: 55%;
+  top: 20px;
+}
+
+#votosBtn {
+    background-color: darkcyan;
+    color: white;
+    position: absolute;
+    width: 8%;
+    left: 55%;
+    top: 50px;
+}
